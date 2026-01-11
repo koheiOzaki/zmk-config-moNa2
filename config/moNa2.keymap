@@ -41,6 +41,12 @@
 
             tap-ms = <20>;
         };
+
+        cursor_xy: cursor_xy {
+            compatible = "zmk,behavior-sensor-rotate";
+            #sensor-binding-cells = <0>;
+            bindings = <&mkp MOVE_X>, <&mkp MOVE_Y>;
+        };
     };
 
     keymap {
@@ -52,6 +58,7 @@
                 &kp Z             &kp X         &kp C         &kp V                    &kp B        &kp C_MUTE            &kp C_VOL_DN   &kp N        &kp M  &mkp MB1   &mkp MB2 &kp SEMICOLON
                 &kp LSHIFT        &kp LEFT_ALT  &kp LCTRL     &mt LEFT_WIN INT_HENKAN  &lt 1 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
             >;
+            sensor-bindings = <&cursor_xy>;
         };
 
         layer_1 {
@@ -61,15 +68,17 @@
                 &trans   &kp LS(N1) &kp LS(N2) &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(PERIOD)   &kp COMMA          &kp PERIOD          &kp BACKSLASH
                 &trans   &trans     &trans     &trans      &trans  &trans    &trans  &trans                                                                  &trans
             >;
+            sensor-bindings = <&cursor_xy>;
         };
 
         layer_2 {
             bindings = <
                 &kp LS(N8)   &kp N3  &kp N8  &kp N9  &kp LS(EQUAL)                                   &kp HOME       &kp PAGE_UP  &kp UP   &kp PAGE_DOWN &kp END
                 &kp SLASH    &kp N2  &kp N5  &kp N6  &kp MINUS                       &kp LC(UP)    &kp LA(LEFT)     &kp LEFT     &kp DOWN &kp RIGHT     &kp LA(RIGHT)
-                &kp N0       &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp PERIOD        &kp LC(DOWN)  &kp LS(LA(LEFT)) &kp LS(LEFT) &kp NO   &kp LS(RIGHT) &kp LS(LA(RIGHT))
+                &kp N0       &kp N1  &kp N2  &kp N3  &kp EQUAL     &kp PERIOD        &kp LC(DOWN)  &kp LS(LA(LEFT)) &kp LS(LEFT) &none    &kp LS(RIGHT) &kp LS(LA(RIGHT))
                 &trans       &trans  &trans  &trans  &trans        &trans            &trans        &trans                                               &kp PIPE
             >;
+            sensor-bindings = <&cursor_xy>;
         };
 
         layer_3 {
