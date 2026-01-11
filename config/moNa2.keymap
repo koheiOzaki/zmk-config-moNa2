@@ -51,7 +51,7 @@
 &kp Q             &kp W         &kp E         &kp R                    &kp T                                             &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F                    &kp G                              &kp MINUS      &kp H        &kp J  &kp K      &kp L    &kp SQT
 &kp Z             &kp X         &kp C         &kp V                    &kp B        &kp C_MUTE            &kp SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LCTRL.    &mt LEFT_WIN INT_HENKAN  &lt 1 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
+&kp LEFT_SHIFT    &kp LEFT_ALT  &kp LCTRL     &mt LEFT_WIN INT_HENKAN  &lt 1 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp DEL
             >;
 
             sensor-bindings =
