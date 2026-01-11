@@ -19,7 +19,7 @@
     combos { compatible = "zmk,combos"; };
 
     /* =====================
-     * Behaviors
+     * Behaviors memo
      * ===================== */
     behaviors {
 
