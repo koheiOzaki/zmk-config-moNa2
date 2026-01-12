@@ -34,11 +34,13 @@
             tapping-term-ms = <200>;
         };
 
-        cursor_move: cursor_move {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&mmv MOVE_X>, <&mmv MOVE_Y>;
-        };
+//----- ビルドエラーのためコメントアウト -----
+//        cursor_move: cursor_move {
+//            compatible = "zmk,behavior-sensor-rotate";
+//            #sensor-binding-cells = <0>;
+//            bindings = <&mmv MOVE_X>, <&mmv MOVE_Y>;
+//        };
+//----- ビルドエラーのためコメントアウト -----
 
         scroll_up_down: behavior_sensor_rotate_mouse_wheel_up_down {
             compatible = "zmk,behavior-sensor-rotate";
@@ -59,7 +61,7 @@
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LCTRL     &mt LEFT_WIN INT_HENKAN  &lt 1 SPACE  &lt 3 INT_MUHENKAN    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
             >;
 
-            sensor-bindings = <&cursor_move>;
+//            sensor-bindings = <&cursor_move>;
         };
 
         layer_1 {
@@ -70,7 +72,7 @@
 &trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                        &trans
             >;
 
-            sensor-bindings = <&cursor_move>;
+//            sensor-bindings = <&cursor_move>;
         };
 
         layer_2 {
@@ -81,7 +83,7 @@
 &trans        &trans  &trans  &trans  &trans        &trans                     &trans              &trans                                                                           &trans
             >;
 
-            sensor-bindings = <&cursor_move>;
+//            sensor-bindings = <&cursor_move>;
         };
 
         layer_3 {
