@@ -72,10 +72,10 @@
 
         layer_2 {
             bindings = <
-&kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp PLUS                                                 &kp HOME        &kp PAGE_UP     &kp UP_ARROW    &kp PAGE_DOWN    &kp END
-&kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS                                &kp UP_ARROW    &kp LEFT_ARROW  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_ARROW
-&kp N0        &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp DOWN_ARROW  &kp LEFT_ARROW  &kp LEFT_ARROW  &none           &kp RIGHT_ARROW  &kp RIGHT_ARROW
-&trans        &trans  &trans  &trans  &trans        &trans                     &trans          &trans                                                           &trans
+&kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp PLUS                                                     &kp HOME                &kp PAGE_UP         &kp UP_ARROW    &kp PAGE_DOWN        &kp END
+&kp SLASH     &kp N4  &kp N5  &kp N6  &kp MINUS                                &kp LC(UP_ARROW)    &kp LA(LEFT_ARROW)      &kp LEFT_ARROW      &kp DOWN_ARROW  &kp RIGHT_ARROW      &kp LA(RIGHT_ARROW)
+&kp N0        &kp N1  &kp N2  &kp N3  &kp PERIOD    &kp EQUAL                  &kp LC(DOWN_ARROW)  &kp LS(LA(LEFT_ARROW))  &kp LS(LEFT_ARROW)  &none           &kp LS(RIGHT_ARROW)  &kp LS(LA(RIGHT_ARROW))
+&trans        &trans  &trans  &trans  &trans        &trans                     &trans              &trans                                                                           &trans
             >;
 
             sensor-bindings = <&scroll_up_down>;
