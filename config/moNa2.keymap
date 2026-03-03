@@ -55,14 +55,6 @@
 
             tap-ms = <20>;
         };
-
-        scroll_left_right: behavior_sensor_rotate_mouse_wheel_left_right {
-            compatible = "zmk,behavior-sensor-rotate";
-            #sensor-binding-cells = <0>;
-            bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
-
-            tap-ms = <20>;
-        };
     };
 
     keymap {
@@ -76,7 +68,7 @@
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &mt LEFT_WIN LANG_2      &lt 1 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_1 {
@@ -87,7 +79,7 @@
 &trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                &trans
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_2 {
@@ -98,7 +90,7 @@
 &trans        &trans  &trans  &trans  &trans      &trans       &trans              &trans                                                                           &trans
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_3 {
@@ -109,7 +101,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                         &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_4 {
@@ -120,7 +112,7 @@
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG_2      &lt 5 SPACE  &lt 7 LANG1    &kp BACKSPACE  &lt 6 ENTER                             &kp TAB
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_5 {
@@ -131,7 +123,7 @@
 &trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                &trans
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
 
         layer_6 {
@@ -142,7 +134,7 @@
 &trans        &trans  &trans  &trans  &trans      &trans       &trans              &trans                                                                           &trans
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
         layer_7 {
             bindings = <
@@ -152,7 +144,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                         &bt BT_CLR_ALL
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&scroll_up_down>;
         };
     };
 };
