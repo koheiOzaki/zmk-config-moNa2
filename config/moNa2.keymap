@@ -68,9 +68,7 @@
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_WIN  &lt 1 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
             >;
 
-            sensor-bindings =
-                <&scroll_up_down>,
-                <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+            sensor-bindings = <&inc_dec_kp LS(K_SCROLL_UP) LS(K_SCROLL_DOWN)>;
         };
 
         layer_1 {
