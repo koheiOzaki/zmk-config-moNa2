@@ -94,7 +94,7 @@
 &kp Q           &kp W         &kp E      &kp R               &kp T                                      &kp Y        &kp U  &lt 5 I   &kp O     &kp P
 &kp A           &kp S         &kp D      &kp F               &kp G                       &kp C_VOL_UP   &kp H        &kp J  &kp K     &kp L     &kp MINUS
 &kp Z           &kp X         &kp C      &kp V               &kp B        &kp C_MUTE     &kp C_VOL_DN   &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SEMICOLON
-&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &mt LEFT_WIN LANG2  &lt 1 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
+&kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &mt LEFT_WIN LANG2  &lt 1 SPACE  &lt 7 LANG1    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
             >;
 
             sensor-bindings = <&scroll_left_right>;
@@ -138,7 +138,7 @@
 &kp Q           &kp W         &kp E         &kp R            &kp T                                      &kp Y        &kp U  &lt 5 I   &kp O     &kp P
 &kp A           &kp S         &kp D         &kp F            &kp G                       &kp C_VOL_UP   &kp H        &kp J  &kp K     &kp L     &kp MINUS
 &kp Z           &kp X         &kp C         &kp V            &kp B        &kp C_MUTE     &kp C_VOL_DN   &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SEMICOLON
-&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG2  &lt 5 SPACE  &lt 3 LANG1    &kp BACKSPACE  &lt 6 ENTER                             &kp TAB
+&kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG2  &lt 5 SPACE  &lt 7 LANG1    &kp BACKSPACE  &lt 6 ENTER                             &kp TAB
             >;
 
             sensor-bindings = <&scroll_left_right>;
