@@ -91,7 +91,7 @@
 
         mac_0 {
             bindings = <
-&kp Q           &kp W         &kp E      &kp R               &kp T                                      &kp Y        &kp U  &lt 4 I   &kp O     &kp P
+&kp Q           &kp W         &kp E      &kp R               &kp T                                      &kp Y        &kp U  &kp I     &kp O     &kp P
 &kp A           &kp S         &kp D      &kp F               &kp G                       &kp C_VOL_UP   &kp H        &kp J  &kp K     &kp L     &kp MINUS
 &kp Z           &kp X         &kp C      &kp V               &kp B        &kp C_MUTE     &kp C_VOL_DN   &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SEMICOLON
 &kp LEFT_SHIFT  &kp LEFT_ALT  &kp LCTRL  &mt LEFT_WIN LANG2  &lt 1 SPACE  &lt 6 LANG1    &kp BACKSPACE  &lt 2 ENTER                             &kp TAB
@@ -124,7 +124,7 @@
 
         windows_0 {
             bindings = <
-&kp Q           &kp W         &kp E         &kp R            &kp T                                      &kp Y        &kp U  &lt 4 I   &kp O     &kp P
+&kp Q           &kp W         &kp E         &kp R            &kp T                                      &kp Y        &kp U  &kp I     &kp O     &kp P
 &kp A           &kp S         &kp D         &kp F            &kp G                       &kp C_VOL_UP   &kp H        &kp J  &kp K     &kp L     &kp MINUS
 &kp Z           &kp X         &kp C         &kp V            &kp B        &kp C_MUTE     &kp C_VOL_DN   &kp N        &kp M  &mkp MB1  &mkp MB2  &kp SEMICOLON
 &kp LEFT_SHIFT  &kp LEFT_WIN  &kp LEFT_ALT  &mt LCTRL LANG2  &lt 4 SPACE  &lt 6 LANG1    &kp BACKSPACE  &lt 5 ENTER                             &kp TAB
