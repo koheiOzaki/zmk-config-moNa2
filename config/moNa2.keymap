@@ -39,21 +39,21 @@
 
         bt_apple_1: bt2_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT0_TO_LAYER0";
+            label = "BT2_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 2 &to 0>, <&macro_wait_time 200>;
         };
 
         bt_apple_2: bt3_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT0_TO_LAYER0";
+            label = "BT3_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 3 &to 0>, <&macro_wait_time 200>;
         };
 
         bt_apple_3: bt4_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT0_TO_LAYER0";
+            label = "BT4_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 4 &to 0>, <&macro_wait_time 200>;
         };
@@ -102,9 +102,9 @@
 
         mac_1 {
             bindings = <
-&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE
-&trans      &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SLASH
-&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp BACKSLASH
+&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp DELETE  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SINGLE_QUOTE
+&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp SLASH
 &trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                &trans
             >;
 
@@ -135,9 +135,9 @@
 
         windows_1 {
             bindings = <
-&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE
-&trans      &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SLASH
-&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp BACKSLASH
+&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH
+&kp DELETE  &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SINGLE_QUOTE
+&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp SLASH
 &trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                &trans
             >;
 
