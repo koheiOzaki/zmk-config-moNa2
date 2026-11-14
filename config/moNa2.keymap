@@ -25,35 +25,30 @@
 
         bt_mac: bt0_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT0_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 0 &to 0>, <&macro_wait_time 200>;
         };
 
         bt_win: bt1_to_layer4 {
             compatible = "zmk,behavior-macro";
-            label = "BT1_TO_LAYER4";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 1 &to 3>, <&macro_wait_time 200>;
         };
 
         bt_apple_1: bt2_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT2_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 2 &to 0>, <&macro_wait_time 200>;
         };
 
         bt_apple_2: bt3_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT3_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 3 &to 0>, <&macro_wait_time 200>;
         };
 
         bt_apple_3: bt4_to_layer0 {
             compatible = "zmk,behavior-macro";
-            label = "BT4_TO_LAYER0";
             #binding-cells = <0>;
             bindings = <&bt BT_SEL 4 &to 0>, <&macro_wait_time 200>;
         };
