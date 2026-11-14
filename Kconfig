@@ -1,0 +1,9 @@
+config MONA2_BLE_PROFILE_NAME
+    bool "Show the active BLE profile number in the Bluetooth device name"
+    default y
+    depends on ZMK_BLE && (!ZMK_SPLIT || ZMK_SPLIT_ROLE_CENTRAL)
+
+config MONA2_BLE_PROFILE_NAME_PREFIX
+    string "Device name prefix (name becomes '<prefix> BT<n>', max 16 chars total)"
+    default "moNa2"
+    depends on MONA2_BLE_PROFILE_NAME
