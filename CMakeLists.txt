@@ -1,0 +1,1 @@
+target_sources_ifdef(CONFIG_MONA2_BLE_PROFILE_NAME app PRIVATE src/ble_profile_name.c)
