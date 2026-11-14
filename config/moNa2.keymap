@@ -102,10 +102,10 @@
 
         mac_1 {
             bindings = <
-&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                    &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE
-&trans      &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &trans            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SLASH
-&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &trans  &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp BACKSLASH
-&trans      &trans      &trans      &trans      &trans  &trans    &trans  &trans                                                                &trans
+&kp ESCAPE  &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &trans                               &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp DELETE
+&trans      &kp LS(N4)  &kp LS(N5)  &kp LS(N6)  &kp DOUBLE_QUOTES            &trans  &kp LS(N9)      &kp LS(N0)       &kp EQUAL         &kp LS(MINUS)      &kp SLASH
+&trans      &kp LS(N1)  &kp LS(N2)  &kp LS(N3)  &kp SQT            &trans    &trans  &kp LS(COMMA)   &kp LS(DOT)      &kp COMMA         &kp DOT            &kp BACKSLASH
+&trans      &trans      &trans      &trans      &trans             &trans    &trans  &trans                                                                &trans
             >;
 
             sensor-bindings = <&scroll_left_right>;
